@@ -327,12 +327,12 @@ cut -d' ' -f5 sample.log | grep '^192'
 ---
 
 ## Completion Checklist
-- [ ] Can use grep with options like -i, -v, -c, -l, -r, -E for flexible searching
-- [ ] Understand awk for column processing, patterns, BEGIN/END, and custom separators
-- [ ] Use sed for text replacement, deletion, insertion with -i, -e, and regex
-- [ ] Master find for file searching with criteria like -name, -type, -size, -mtime, -user
-- [ ] Combine commands with pipes, xargs (-I, -0), and redirection for workflows
-- [ ] Can create complex one-liners for data processing, including sort/uniq/tr variants
+- [y ] Can use grep with options like -i, -v, -c, -l, -r, -E for flexible searching
+- [ y_need_to_check_one_more] Understand awk for column processing, patterns, BEGIN/END, and custom separators
+- [y ] Use sed for text replacement, deletion, insertion with -i, -e, and regex
+- [ y] Master find for file searching with criteria like -name, -type, -size, -mtime, -user
+- [ need_toCheck] Combine commands with pipes, xargs (-I, -0), and redirection for workflows
+- [NO ] Can create complex one-liners for data processing, including sort/uniq/tr variants
 
 ---
 
